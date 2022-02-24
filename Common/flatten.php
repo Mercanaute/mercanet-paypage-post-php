@@ -11,7 +11,7 @@ function flatten_to_mercanet_payload($input)
 }
 
 // utility method called by flatten_to_mercanet_payload and flatten_array - méthode utilitaire appelée par flatten_to_mercanet_payload et flatten_array
-// returns a single dimensional array that can be imploded as a string with the - méthode utilitaire appelée par flatten_to_mercanet_payload et flatten_array
+// returns a single dimensional array that can be imploded as a string with the - renvoie un tableau unidimensionnel qui peut être implosé sous forme de chaîne avec le
 // required separator - séparateur requis
 function flatten_undefined($object, $keyStack)
 {
