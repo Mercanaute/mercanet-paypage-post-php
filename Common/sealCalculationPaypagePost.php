@@ -1,5 +1,5 @@
 <?php
-//This file is used to calculate the seal using the HMAC-SHA256 AND SHA256 algorithms - - Ce fichier est utilisé pour calculer le sceau en utilisant les algorithmes HMAC-SHA256 ET SHA256
+//This file is used to calculate the seal using the HMAC-SHA256 AND SHA256 algorithms - Ce fichier est utilisé pour calculer le sceau en utilisant les algorithmes HMAC-SHA256 ET SHA256
 
 function compute_seal_from_string($sealAlgorithm, $data, $secretKey)
 {
